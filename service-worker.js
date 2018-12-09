@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tenmediatech/weatherforecast/precache-manifest.69e2b722167c118183875bfb816cc1ce.js"
+  "/weatherforecast/precache-manifest.7a23eaf2593a181142e8212d7051b802.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/tenmediatech/weatherforecast/index.html", {
+workbox.routing.registerNavigationRoute("/weatherforecast/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

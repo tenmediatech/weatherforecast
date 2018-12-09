@@ -1,14 +1,14 @@
 {
-  "main.css": "/tenmediatech/weatherforecast/static/css/main.e0fc7373.chunk.css",
-  "main.js": "/tenmediatech/weatherforecast/static/js/main.b853a7f8.chunk.js",
-  "main.js.map": "/tenmediatech/weatherforecast/static/js/main.b853a7f8.chunk.js.map",
-  "static/js/1.82dafdb5.chunk.js": "/tenmediatech/weatherforecast/static/js/1.82dafdb5.chunk.js",
-  "static/js/1.82dafdb5.chunk.js.map": "/tenmediatech/weatherforecast/static/js/1.82dafdb5.chunk.js.map",
-  "runtime~main.js": "/tenmediatech/weatherforecast/static/js/runtime~main.1ef05e00.js",
-  "runtime~main.js.map": "/tenmediatech/weatherforecast/static/js/runtime~main.1ef05e00.js.map",
-  "static/media/logo.svg": "/tenmediatech/weatherforecast/static/media/logo.5d5d9eef.svg",
-  "static/css/main.e0fc7373.chunk.css.map": "/tenmediatech/weatherforecast/static/css/main.e0fc7373.chunk.css.map",
-  "index.html": "/tenmediatech/weatherforecast/index.html",
-  "precache-manifest.69e2b722167c118183875bfb816cc1ce.js": "/tenmediatech/weatherforecast/precache-manifest.69e2b722167c118183875bfb816cc1ce.js",
-  "service-worker.js": "/tenmediatech/weatherforecast/service-worker.js"
+  "main.css": "/weatherforecast/static/css/main.e0fc7373.chunk.css",
+  "main.js": "/weatherforecast/static/js/main.b97a6130.chunk.js",
+  "main.js.map": "/weatherforecast/static/js/main.b97a6130.chunk.js.map",
+  "static/js/1.82dafdb5.chunk.js": "/weatherforecast/static/js/1.82dafdb5.chunk.js",
+  "static/js/1.82dafdb5.chunk.js.map": "/weatherforecast/static/js/1.82dafdb5.chunk.js.map",
+  "runtime~main.js": "/weatherforecast/static/js/runtime~main.086d958e.js",
+  "runtime~main.js.map": "/weatherforecast/static/js/runtime~main.086d958e.js.map",
+  "static/media/logo.svg": "/weatherforecast/static/media/logo.5d5d9eef.svg",
+  "static/css/main.e0fc7373.chunk.css.map": "/weatherforecast/static/css/main.e0fc7373.chunk.css.map",
+  "index.html": "/weatherforecast/index.html",
+  "precache-manifest.7a23eaf2593a181142e8212d7051b802.js": "/weatherforecast/precache-manifest.7a23eaf2593a181142e8212d7051b802.js",
+  "service-worker.js": "/weatherforecast/service-worker.js"
 }
