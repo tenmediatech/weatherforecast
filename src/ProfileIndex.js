@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
-import apiUrl from '../src/apiConfig.js'
+import apiUrl from './apiConfig.js'
 import ProfileDelete from './ProfileDelete'
 import ProfileUpdate from './ProfileUpdate'
 
@@ -11,7 +11,7 @@ class ProfileIndex extends React.Component {
     }
 
     async componentDidMount() {
-      const response = await axios.get('http://localhost:4741/profiles')
+      const response = await axios.get(apiUrl + '/profiles')
       this.setState({profiles:response.data.profiles})
     }
 

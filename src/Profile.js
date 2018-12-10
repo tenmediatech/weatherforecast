@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, withRouter, Route, Link } from 'react-router-dom'
 import axios from 'axios'
 import ProfileUpdate from './ProfileUpdate'
+import apiUrl from './apiConfig.js'
 
 class Profile extends React.Component {
   constructor(props){
@@ -17,7 +18,7 @@ class Profile extends React.Component {
 
   async componentDidMount(){
     const id = this.props.match.params.id
-    const response = await axios.get(`http://localhost:4741/profiles/${id}`)
+    const response = await axios.get(apiUrl + `/profiles/${id}`)
     const profile = response.data.profile
 
     this.setState({

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, withRouter, Redirect } from 'react-router-dom'
 import axios from 'axios'
-import apiUrl from '../src/apiConfig.js'
+import apiUrl from './apiConfig.js'
 import { handleErrors } from './auth/api.js'
 import './App.scss'
 import messages from './auth/messages'
