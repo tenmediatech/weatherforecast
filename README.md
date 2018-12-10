@@ -1,4 +1,4 @@
-Users & profiles Api Application
+Weather Forecast React Application with Users & profiles Clent Api Application
 
 User Story
 
