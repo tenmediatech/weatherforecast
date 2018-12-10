@@ -36,7 +36,7 @@ class WeatherApp extends React.Component {
         temperature: data.list[0].main.temp,
         humidity: data.list[0].main.humidity,
         description: data.list[0].weather[0].description,
-        icon: 'https://cors-anywhere.herokuapp.com/http://openweathermap.org/img/w/' + data.list[0].weather[0].icon + '.png',
+        icon: 'http://openweathermap.org/img/w/' + data.list[0].weather[0].icon + '.png',
         list: data.list,
         error: ''
       })
@@ -62,7 +62,7 @@ class WeatherApp extends React.Component {
         daytemp.push(temp)
       const humidity = interval.main.humidity
       const description = interval.weather[0].description
-      const icon = 'https://cors-anywhere.herokuapp.com/http://openweathermap.org/img/w/' + interval.weather[0].icon + '.png'
+      const icon = 'http://openweathermap.org/img/w/' + interval.weather[0].icon + '.png'
       return (
         <pre key={temp} style={{color:'#000', fontSize:'16px'}}>
           {temp}              {humidity}          {description}     <img src={icon} />
